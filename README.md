@@ -4,7 +4,7 @@ The dataset and its semi-automatic creation methodology are described in the pap
 
 **MISeD** includes 432 dialogs over meeting transcripts from the [QMSum meeting corpus](https://github.com/Yale-LILY/QMSum).
 We used 225 meetings across three domains: 134 Product Meetings (AMI), 58 Academic Meetings (ICSI), and 33 public Parliamentary Committee Meetings sourced from the Welsh Parliament and the Parliament of Canada.
-Splits are similar to the QMSum splits, in a ration of 70:15:15 for train:validation:test.
+Splits are similar to the QMSum splits, in a ratio of 70:15:15 for train:validation:test.
 
 Each dataset instance includes:
 1. A single dialog about a specific meeting transcript, containing up to ten query-response turns
@@ -14,3 +14,5 @@ Each dataset instance includes:
 For training and evaluating an agent model, each dialog is divided into task instances. Each such instance represents a single current query, incorporating its preceding dialog history along with the corresponding target response and its attributions.
 
 The **WOZ** dataset is a fully manual version of MISeD, aimed to objectively test the value of training models with the **MISeD** data.
+
+![image](https://github.com/google-research-datasets/MISeD/assets/168535726/f9b93b32-d71e-4fad-8553-9314c020e47b)
