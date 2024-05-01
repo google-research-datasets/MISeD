@@ -15,4 +15,4 @@ For training and evaluating an agent model, each dialog is divided into task ins
 
 The **WOZ** dataset is a fully manual version of MISeD, aimed to objectively test the value of training models with the **MISeD** data.
 
-![image](https://github.com/google-research-datasets/MISeD/assets/168535726/f9b93b32-d71e-4fad-8553-9314c020e47b)
+
