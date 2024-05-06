@@ -1,6 +1,6 @@
 This repository contains the **MISeD** (Meeting Information Seeking Dialogs) dataset - an information-seeking dialog dataset over meeting transcripts. 
 
-The dataset and its semi-automatic creation methodology are described in the paper: _Efficient Data Generation for Source-grounded Information-seeking Dialogs: A Use Case for Meeting Transcripts_ (soon to be available on arxiv).
+The dataset and its semi-automatic creation methodology are described in the paper: [Efficient Data Generation for Source-grounded Information-seeking Dialogs: A Use Case for Meeting Transcripts](https://arxiv.org/pdf/2405.01121).
 
 **MISeD** includes 432 dialogs over meeting transcripts from the [QMSum meeting corpus](https://github.com/Yale-LILY/QMSum).
 We used 225 meetings across three domains: 134 Product Meetings (AMI), 58 Academic Meetings (ICSI), and 33 public Parliamentary Committee Meetings sourced from the Welsh Parliament and the Parliament of Canada.
