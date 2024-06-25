@@ -15,4 +15,15 @@ For training and evaluating an agent model, each dialog is divided into task ins
 
 The **WOZ** dataset is a fully manual version of MISeD, aimed to objectively test the value of training models with the **MISeD** data.
 
+### Citation
+If you use MISeD in your research, please cite [Efficient Data Generation for Source-grounded Information-seeking Dialogs: A Use Case for Meeting Transcripts](https://arxiv.org/pdf/2405.01121).
+```
+@misc{golany2024efficient,
+      title={Efficient Data Generation for Source-grounded Information-seeking Dialogs: A Use Case for Meeting Transcripts}, 
+      author={Lotem Golany and Filippo Galgani and Maya Mamo and Nimrod Parasol and Omer Vandsburger and Nadav Bar and Ido Dagan},
+      year={2024},
+      eprint={2405.01121},
+      archivePrefix={arXiv},      
+}
+```
 
