@@ -16,14 +16,28 @@ For training and evaluating an agent model, each dialog is divided into task ins
 The **WOZ** dataset is a fully manual version of MISeD, aimed to objectively test the value of training models with the **MISeD** data.
 
 ### Citation
-If you use MISeD in your research, please cite [Efficient Data Generation for Source-grounded Information-seeking Dialogs: A Use Case for Meeting Transcripts](https://arxiv.org/pdf/2405.01121).
+If you use MISeD in your research, please cite [Efficient Data Generation for Source-grounded Information-seeking Dialogs: A Use Case for Meeting Transcripts](https://aclanthology.org/2024.findings-emnlp.106/).
 ```
-@misc{golany2024efficient,
-      title={Efficient Data Generation for Source-grounded Information-seeking Dialogs: A Use Case for Meeting Transcripts}, 
-      author={Lotem Golany and Filippo Galgani and Maya Mamo and Nimrod Parasol and Omer Vandsburger and Nadav Bar and Ido Dagan},
-      year={2024},
-      eprint={2405.01121},
-      archivePrefix={arXiv},      
+@inproceedings{golany-etal-2024-efficient,
+    title = "Efficient Data Generation for Source-grounded Information-seeking Dialogs: A Use Case for Meeting Transcripts",
+    author = "Golany, Lotem  and
+      Galgani, Filippo  and
+      Mamo, Maya  and
+      Parasol, Nimrod  and
+      Vandsburger, Omer  and
+      Bar, Nadav  and
+      Dagan, Ido",
+    editor = "Al-Onaizan, Yaser  and
+      Bansal, Mohit  and
+      Chen, Yun-Nung",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2024",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.findings-emnlp.106",
+    pages = "1908--1925",
+    abstract = "Automating data generation with Large Language Models (LLMs) has become increasingly popular. In this work, we investigate the feasibility and effectiveness of LLM-based data generation in the challenging setting of source-grounded information-seeking dialogs, with response attribution, over long documents. Our source texts consist of long and noisy meeting transcripts, adding to the task complexity. Since automating attribution remains difficult, we propose a semi-automatic approach: dialog queries and responses are generated with LLMs, followed by human verification and identification of attribution spans. Using this approach, we created MISeD {--} Meeting Information Seeking Dialogs dataset {--} a dataset of information-seeking dialogs focused on meeting transcripts. Models finetuned with MISeD demonstrate superior performance compared to off-the-shelf models, even those of larger size. Finetuning on MISeD gives comparable response generation quality to finetuning on fully manual data, while improving attribution quality and reducing time and effort.",
 }
 ```
 
